@@ -1,0 +1,30 @@
+# ── Python ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# ── Virtual environments ───────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Node / frontend build ──────────────────────────────────────────
+node_modules/
+frontend/dist/
+
+# ── Runtime data ───────────────────────────────────────────────────
+*.db
+*.db-journal
+downloads/
+*.log
+
+# ── Editors / OS ───────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
